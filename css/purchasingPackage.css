@@ -96,6 +96,7 @@ input.phone{
 }
 input.verification{
     padding-left: 0.3rem;
+    width: 2.4rem;
 }
 .phoneNum-choice div:nth-child(3){
     border-top: none;
