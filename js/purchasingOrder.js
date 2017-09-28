@@ -41,7 +41,7 @@ var page = {
             $('#color').text(result.color);
             $('#package').text(result.package);
             $('#phone').text(result.phone);
-            $('.checkout-price').text(result.price);
+            $('.checkout-price').text('￥'+result.price);
     }
 }
 
