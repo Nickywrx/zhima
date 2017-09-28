@@ -4,8 +4,6 @@
 
 var page = {
 	 init : function(){
-        //设置rem
-        _mm.setRem();
         //移动端300毫秒延迟
         _mm.fastClick();
         //事件绑定
@@ -64,6 +62,7 @@ var page = {
             $('.num-dialog').hide();
             var choiceNum = $('.num-list li[class="active"]').text();
             $('#choice-num').val(choiceNum);
+            $('.search-num').val('');
         });
         // 手机列表号码的选择
         $('.num-list').on('click','li', function(){
@@ -71,7 +70,7 @@ var page = {
             
         });
         // 手机列表号码的尾号通过选择框选择
-        $('.search-box .search-num').keyup(function(){
+        /*$('.search-box .search-num').keyup(function(){
             var searchNumVal = $(this).val();
             if(!searchNumVal){
                 $('.num-list li').removeClass('active');
@@ -82,7 +81,7 @@ var page = {
                 return;
             }
            $('.num-list li:contains('+searchNumVal+')').addClass('active');
-        });
+        });*/
         // ----------点击提交按钮---------
         $('.submit-btn .btn').click(function(){
             // 如果没有选择套餐
@@ -140,10 +139,10 @@ var page = {
         $('#send-verify').click(function(){
             var _this  = this,
                 timer  = null,
-                count  = 5, //倒数时间
+                count  = 6, //倒数时间
                 random = Math.ceil(Math.random()*100000+900000); //随机生成6位整数
                 timer  = setInterval(function(){
-                    --count;
+                    count--;
                     $(_this).text(count+"s");
                     if(count<=0){
                         clearInterval(timer);

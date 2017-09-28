@@ -10,8 +10,6 @@
 
 var page = {
     init : function(){
-        //设置rem
-        _mm.setRem();
         //移动端300毫秒延迟
         _mm.fastClick();
         //事件绑定
@@ -61,6 +59,7 @@ var page = {
             if(!$('.phone-memory li a').hasClass('active')){
                 $("html,body").animate({scrollTop:120}, 0);
                 $('.option-dialog').show();
+                return;
              };
              window.location.href = './purchasingPackage.html'
         });

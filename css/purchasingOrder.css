@@ -23,7 +23,7 @@
     right: 0;
     top: 0;
     font-size: 0.35rem;
-    font-family: "宋体";
+    font-family: "simsun";
     font-weight: bold;
 }
 /*购买信息*/
@@ -93,6 +93,9 @@
     overflow: hidden;
     padding: 0.29rem 0.3rem 0.29rem 0;
     border-bottom: 1px solid #ddd;
+}
+.dis-information p:nth-child(4) i{
+    padding-left: 0.3rem;
 }
 .dis-information p input{
     display: block;

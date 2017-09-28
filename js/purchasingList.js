@@ -11,8 +11,6 @@ var data = {
 };
 var page = {
     init : function(){
-        //设置rem
-        _mm.setRem();
         //移动端300毫秒延迟
         _mm.fastClick();
         //事件绑定
