@@ -1,0 +1,56 @@
+.zhiMa-img img{
+    width: 2.48em;
+    height: 2.3rem;
+    margin: 1.2rem auto 0.6rem;
+}
+.zhiMa-con p{
+    text-align: center;
+}
+.zhiMa-con p:nth-child(1){
+    font-size: 0.36rem;
+    padding-bottom: 0.2rem;
+    color: #1ccfc9;
+}
+.zhiMa-con p:nth-child(2){
+    font-size: 0.32rem;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+.zhiMa-con p:nth-child(2) span{
+    display: inline-block;
+    width: 0.27rem;
+    height: 0.33rem;
+    padding-right: 0.12rem;
+    vertical-align: middle;
+    background: url("../images/zhima_icon.jpg") no-repeat center center;
+}
+.zhiMa-con p:nth-child(3){
+    font-size: 0.28rem;
+    margin-bottom: 0.1rem;
+    color: #9A9A9A;
+}
+.zhiMa-con p:nth-child(4){
+    font-size: 0.28rem;
+    margin-bottom: 0.5rem;
+    color: #9A9A9A;
+}
+.zhiMa-con p:nth-child(5){
+    font-size: 0.24rem;
+    margin-bottom: 0.3rem;
+    padding-left: 0.3rem;
+    text-align: left;
+    color: #9A9A9A;
+}
+.to-life-num{
+    padding: 0 0.3rem;
+}
+.to-life-num a{
+    display: block;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    color: #fff;
+    background-color: #1CCFC9;
+}

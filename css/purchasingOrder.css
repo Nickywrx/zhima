@@ -1,0 +1,129 @@
+.order-page{
+    padding-bottom: 0.5rem;
+}
+/*买家地址*/
+.order-address{
+    padding: 0.3rem 0.4rem 0.35rem 0.4rem;
+    background-color: #fff;
+    margin-bottom: 0.2rem;
+}
+.order-address p{
+    font-size: 0.3rem;
+    margin-bottom: 0.2rem;
+    color: #333;
+}
+.order-address p.buyer-address{
+    position: relative;
+    font-size: 0.26rem;
+    padding-right: 0.9rem;
+    color: #888;
+}
+.buyer-arrow{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.35rem;
+    font-family: "宋体";
+    font-weight: bold;
+}
+/*购买信息*/
+.buy-info{
+    background-color: #f4f4f4;
+}
+.info-title{
+    padding: 0.2rem 0 0.2rem 0.3rem;
+    font-size: 0.32rem;
+    background-color: #fff;
+}
+.info-content{
+    padding: 0.3rem;
+}
+
+.info-content .info-img{
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #fff;
+}
+.info-content .info-text{
+    padding-left: 0.2rem;
+    overflow: hidden;
+}
+.info-content .info-text div{
+    font-size: 0.2rem;
+    margin-bottom: 0.1rem;
+    color: #bbb;
+}
+.info-content .info-text p:nth-child(4){
+    font-size: 0.24rem;
+}
+.info-content .info-text p .buy-price{
+    color: #FE6859;
+}
+.info-content .info-text p .buy-count{
+    color: #888;
+}
+.info-text-title{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+    font-size: 0.28rem;
+    margin-bottom: 0.12rem;
+    color: #333;
+}
+.info-text-introduce{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    font-size: 0.24rem;
+    margin-bottom: 0.12rem;
+    color: #888;
+}
+/*配送信息*/
+.dis-information{
+    font-size: 0.32rem;
+    background-color: #fff;
+    padding-left: 0.3rem;
+}
+.dis-information p{
+    overflow: hidden;
+    padding: 0.29rem 0.3rem 0.29rem 0;
+    border-bottom: 1px solid #ddd;
+}
+.dis-information p input{
+    display: block;
+    width: 80%;
+    padding-left: 0.4rem;
+    overflow: hidden;
+}
+.dis-information p span:nth-child(1){
+    float: left;
+    color: #333;
+}
+.dis-information p span:nth-child(2){
+    float: right;
+    color: #888;
+}
+/*结账*/
+.checkout{
+    font-size: 0.24rem;
+    margin-bottom: 0.5rem;
+}
+.checkout p{
+    padding: 0.29rem 0.3rem 0.29rem 0;
+    text-align: right;
+    color: #333;
+    background-color: #fff;
+}
+.checkout .checkout-price{
+    font-size: 0.32rem;
+    color: #ff5847;
+}
+/*提交按钮*/
+.order-foot{
+    padding: 0 0.3rem;
+}

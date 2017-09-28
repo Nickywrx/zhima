@@ -1,0 +1,194 @@
+/*banner图片*/
+.banner{
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #fff;
+    background: url("../images/banner.jpg") no-repeat center center;
+    background-size: 100% 3rem;
+}
+/*导航样式*/
+.nav .nav-list li{
+    position: relative;
+    color: #bdbdbd;
+    font-size: 0.32rem;
+    width: 25%;
+    height: 0.42rem;
+    float: left;
+}
+.nav .nav-list{
+    padding: 0.32rem 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.nav .nav-list li{
+    padding-left: 0.7rem;
+}
+.nav .nav-list li.active{
+    color: #ff5847;
+}
+
+/*导航箭头小图标*/
+.nav .nav-list .sales span,
+.nav .nav-list .price span{
+    position: absolute;
+    bottom: 0.03rem;
+    right: 0.28rem;
+    display: inline-block;
+    width: 0.13rem;
+    height: 0.32rem;
+}
+.nav .nav-list .sales span::before,
+.nav .nav-list .price span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0.07rem solid #BBBBBB;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    background-color: #fff;
+}
+.nav .nav-list .sales span::after,
+.nav .nav-list .price span::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 0.07rem solid #676362;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    background-color: #fff;
+}
+.nav .nav-list .change-style span{
+    position: absolute;
+    left: 0.7rem;
+    top: 0.03rem;
+    width: 0.45rem;
+    height: 0.4rem;
+    background-color: #fff;
+}
+.nav .nav-list .change-style span i{
+    float: left;
+    width: 0.14rem;
+    height: 0.14rem;
+    margin-right: 0.02rem;
+    margin-bottom: 0.02rem;
+    border: 1px solid #898989;
+}
+/*商品列表内容*/
+.list-content{
+    padding: 0.2rem;
+}
+/*水平布局*/
+.list-content.horizontal li{
+    width: 3.45rem;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 0.2rem;
+}
+.list-content.horizontal li:nth-child(2n+1){
+   margin-right: 0.2rem;
+}
+.list-content.horizontal li .product-img{
+    width: 100%;
+    padding: 10% 0 0 10%;
+    height: 3.45rem;
+}
+.list-content.horizontal li .product-img img{
+    width: 80%;
+}
+.list-content.horizontal li .product-details{
+    padding: 0.1rem 0.14rem;
+    font-size: 0.24rem;
+}
+.list-content.horizontal .product-details .product-introduce{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    margin-bottom: 0.2rem;
+}
+.list-content.horizontal .product-details .product-introduce span{
+    display: inline-block;
+    width: 0.20rem;
+    height: 0.25rem;
+    vertical-align: middle;
+    background: url("../images/zhima_icon.jpg") no-repeat center center;
+    background-size: 0.20rem 0.25rem;
+}
+.list-content.horizontal .product-price{
+    overflow: hidden;
+}
+.list-content.horizontal .product-price .new-price{
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 0.32rem;
+    color: #ff5847;
+}
+.list-content.horizontal .product-price .sales-count{
+    float: right;
+    width: 50%;
+    padding-top: 0.05rem;
+    text-align: right;
+    color: #333;
+}
+/*垂直布局*/
+.list-content.vertical li{
+    background-color: #fff;
+    margin-bottom: 0.2rem;
+    overflow: hidden;
+}
+.list-content.vertical li .product-img{
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 5% 0 0 5%;
+}
+.list-content.vertical li .product-img img{
+    width: 80%;
+    height: 80%;
+}
+.list-content.vertical li .product-details{
+    padding: 0.5rem 0.14rem 0.1rem 0;
+    font-size: 0.24rem;
+    overflow: hidden;
+}
+.list-content.vertical .product-details .product-introduce{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    margin-bottom: 0.2rem;
+}
+.list-content.vertical .product-details .product-introduce span{
+    display: inline-block;
+    width: 0.20rem;
+    height: 0.25rem;
+    vertical-align: middle;
+    background: url("../images/zhima_icon.jpg") no-repeat center center;
+    background-size: 0.20rem 0.25rem;
+}
+.list-content.vertical .product-price{
+    padding-top: 0.3rem;
+    overflow: hidden;
+}
+.list-content.vertical .product-price .new-price{
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 0.32rem;
+    color: #ff5847;
+}
+.list-content.vertical .product-price .sales-count{
+    float: right;
+    width: 50%;
+    padding-top: 0.05rem;
+    text-align: right;
+    color: #333;
+}

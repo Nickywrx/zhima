@@ -1,0 +1,107 @@
+.confirm-time{
+    height: 1.39rem;
+    line-height: 1.39rem;
+    font-size: 0.32rem;
+    padding-left: 0.3rem;
+    border-bottom: 1px solid #dcdcdc;
+    color: #333;
+    background-color: #fff;
+}
+.confirm-time .confirm-money{
+    color: #ff5847;
+}
+.confirm-mode{
+    background-color: #fff;
+}
+.confirm-mode h4{
+    height: 0.7rem;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    padding-left: 0.3rem;
+    color: #bbb;
+    background-color: #f4f4f4;
+}
+.confirm-mode .confirm-mode-con{
+    margin-bottom: 0.8rem;
+}
+.confirm-mode .confirm-mode-con .pay-list.active i{
+    background: url('../images/draw.png') no-repeat center center;
+    background-size: 0.3rem 0.3rem;
+    -webkit-background-size: 0.3rem 0.3rem;
+    -ms-background-size: 0.3rem 0.3rem;
+}
+.confirm-mode .confirm-mode-con .pay-stages>li{
+    position: relative;
+    font-size: 0.32rem;
+    padding: 0.15rem 0.3rem 0.16rem;
+    color: #333;
+    border-bottom: 1px solid #dcdcdc;
+}
+.confirm-mode .confirm-mode-con li p{
+    overflow: hidden;
+}
+.confirm-mode .confirm-mode-con li .pay-img{
+    width: 0.58rem;
+    height: 0.6rem;
+    float: left;
+}
+.confirm-mode .confirm-mode-con li span{
+    float: left;
+    padding-left: 0.3rem;
+    padding-top: 0.1rem;
+}
+.confirm-mode .confirm-mode-con li span:nth-child(3){
+    font-size: 0.22rem;
+    padding-top: 0.18rem;
+    color: #36D6CE;
+}
+.confirm-mode .confirm-mode-con li .pay-icon{
+    position: absolute;
+    right: 0.3rem;
+    top: 0.26rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+}
+.confirm-mode-con li .hb-stages{
+    margin: 0.45rem 0;
+    border-radius: 0.2rem;
+}
+.confirm-mode-con li .hb-stages h5{
+    font-size: 0.24rem;
+    margin-bottom: 0.2rem;
+    color: #bbb;
+}
+.hb-stages .hb-stages-item{
+    float: left;
+}
+.hb-stages .hb-stages-item{
+    padding: 0.24rem 0.25rem 0.25rem 0.2rem;
+    margin-right: 0.2rem;
+    color: #333;
+    background-color: #EFEFEF;
+}
+.hb-stages .hb-stages-item.active{
+    background-color: #1CCFC9;
+    color: #fff;
+}
+.hb-stages .hb-stages-item p{
+    text-align: right;
+}
+.hb-stages .hb-stages-item p:nth-child(2){
+    padding-right: 0.3rem;
+}
+.to-pay{
+   padding: 0 0.3rem;
+}
+.to-pay a{
+    display: block;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    color: #fff;
+    background-color: #1CCFC9;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/purchasingPackage.css">
+    <script src="../js/fastclick.js"></script>
+    <title>合约机套包2</title>
+</head>
+<body>
+  <div class="choice-step">
+    <!--套餐选择-->
+    <div class="choice package-choice">
+        <h4>套餐选择</h4>
+        <ul class="clearfix">
+            <li>
+                <div class="package-item clearfix">
+                    <a href="javascript:;" class="package">106套餐</a>
+                    <a href="javascript:;">套餐详情</a>
+                    <a href="javascript:;" class="choice-status"><span>未选择</span><i></i></a>
+                </div>
+            </li>
+            <li>
+            <div class="package-item clearfix">
+                <a href="javascript:;" class="package">136套餐</a>
+                <a href="javascript:;">套餐详情</a>
+                <a href="javascript:;" class="choice-status"><span>未选择</span><i></i></a>
+            </div>   
+            </li>
+            <li>
+               <div class="package-item clearfix">
+                  <a href="javascript:;" class="package">196套餐</a>
+                  <a href="javascript:;">套餐详情</a>
+                  <a href="javascript:;" class="choice-status"><span>未选择</span><i></i></a>
+                </div> 
+            </li>
+        </ul>
+    </div>
+    <!--手机号办理-->
+    <div class="choice phoneNum-choice">
+        <h4>手机号办理</h4>
+        <div class="num old-num">
+            <p><span>老用户号码办理</span><i class="old-num-icon"></i></p>
+        </div>
+        <div class="old-num-inner num-inner">
+            <ul class="hide">
+                <li>
+                    <label for="phone">手机号</label>
+                    <input type="text" class="phone" id="phone" placeholder="请输入您的手机号" autocomplete="off">
+                </li>
+                <li>
+                    <label for="verification">校验码</label>
+                    <input type="text" class="verification" id="verification" placeholder="输入短信校验码" readonly="readonly">
+                    <span id="send-verify">发送校验码</span>
+                </li>
+            </ul>
+        </div>
+        <div class="num new-num">
+            <p><span>新号选择</span><i class="new-num-icon"></i></p>
+        </div>
+        <div class="new-num-inner num-inner">
+            <ul class="hide">
+                <li>
+                    <input type="text" class="choice-num" id="choice-num" placeholder="请选择号码" readonly="readonly">
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+      <!--提交按钮-->
+      <div class="submit-btn">
+          <a href="javascript:;" class="btn">提交</a>
+      </div>
+      <!--手机号选择弹窗-->
+      <div class="num-dialog hide">
+          <div class="num-dialog-con">
+              <div class="num-head">
+                  <a href="javascript:;" class="num-cancel">取消</a>
+                  <a href="javascript:;" class="num-sure">确定</a>
+              </div>
+              <div class="num-con">
+                  <div class="search-box">
+                      <select class="card-style">
+                          <option value="">西安联通-3G/4G</option>
+                          <option value="">云南联通-3G/4G</option>
+                          <option value="">广东电信-3G/4G</option>
+                      </select>
+                      <input type="text" class="search-num" placeholder="尾号选择">
+                  </div>
+                  <!--手机号列表-->
+                  <div class="num-list">
+                      <ul class="clearfix">
+                          <li>188123456780</li>
+                          <li class="active">188123456781</li>
+                          <li>188123456782</li>
+                          <li>188123456783</li>
+                          <li>188123456784</li>
+                          <li>188123456785</li>
+                          <li>188123456786</li>
+                          <li>188123456787</li>
+                          <li>188123456788</li>
+                      </ul>
+                  </div>
+              </div>
+              <!--换一批-->
+              <div class="num-foot">
+                  <a href="javascript:;" class="change-num">换一批</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="../js/jquery.min.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/purchasingPackage.js"></script>
+</body>
+</html>
