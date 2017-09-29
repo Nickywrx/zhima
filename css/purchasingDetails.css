@@ -152,6 +152,7 @@
     height: 100%;
     background-color: rgba(0,0,0,.4);
     z-index: 999;
+    display: none;
 }
 .option-dialog-con{
     position: absolute;
@@ -174,7 +175,7 @@
     top:-0.04rem;
     width: 0.42rem;
     height: 0.42rem;
-    line-height: 0.35rem;
+    line-height: 0.38rem;
     text-align: center;
     border: 1px solid #C5C5C5;
     font-size: 0.35rem;
@@ -192,7 +193,7 @@
 }
 .content-head-right{
     padding-left: 0.32rem;
-    font-size: 0.2rem;
+    font-size: 0.26rem;
 }
 .content-head-right p:nth-child(1){
      margin-bottom: 0.15rem;

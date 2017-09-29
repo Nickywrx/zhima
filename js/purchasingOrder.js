@@ -12,7 +12,7 @@ var page = {
         this.initData();
     },
     bindEvent : function(){
-    	
+    	  $('.order-page').addClass('animated fadeInLeftBig');
         // ----------点击提交按钮---------
         $('.order-foot .btn').click(function(){
         	var invoiceHeadStyle = $('#invoice-head-style').val(),
