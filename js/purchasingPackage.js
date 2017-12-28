@@ -10,7 +10,6 @@ var page = {
         this.bindEvent();
     },
      bindEvent : function(){
-        $('.choice-step').addClass('animated fadeInLeft');
     	 // 选择套餐
         $('.package-item .choice-status').click(function(){
         	$(this).parent().addClass('active')

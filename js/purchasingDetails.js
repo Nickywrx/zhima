@@ -23,7 +23,6 @@ var page = {
         $('.details-center').click(function(){
             $("html,body").animate({scrollTop:120}, 0);
             $('.option-dialog').show();
-            $('.option-dialog-con').addClass('animated flipInY');
         });
         // 点击关闭内存量和颜色选框
         $('.close-btn').click(function(){

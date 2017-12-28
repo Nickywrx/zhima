@@ -51,12 +51,12 @@
     overflow: hidden;
 }
 .info-content .info-text div{
-    font-size: 0.2rem;
+    font-size: 0.26rem;
     margin-bottom: 0.1rem;
     color: #bbb;
 }
 .info-content .info-text p:nth-child(4){
-    font-size: 0.24rem;
+    font-size: 0.27rem;
 }
 .info-content .info-text p .buy-price{
     color: #FE6859;

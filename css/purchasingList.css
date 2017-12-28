@@ -90,7 +90,7 @@
     margin-bottom: 0.2rem;
 }
 .list-content.horizontal li:nth-child(2n+1){
-   margin-right: 0.2rem;
+   margin-right: 0.15rem;
 }
 .list-content.horizontal li .product-img{
     width: 100%;
